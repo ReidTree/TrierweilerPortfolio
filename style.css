@@ -1,20 +1,210 @@
 body  {
-  background-color: #F0EAD6;
+  background-color: black;
     font-family: Arial, Verdana, cursive;
+    color: white;
+    width: 960px;
 }
-h1  {
-  text-align: center;
-  margin: 40px 0px 20px 0px;
-  color: Purple;
+@font-face {
+  font-family: KaushanScript-Regular;
+  src: url(Fonts/KaushanScript-Regular.otf);
+}
+span.header {
+  position: absolute;
+  display: inline;
+  z-index: 10;
+}
+h1 {
+  font-family: KaushanScript-Regular, cursive;
+  font-size: 48px;
+  position: absolute;
+  top: 0px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  color: darkgrey;
+}
+ul.sociallogo {
+  margin-left: 500px;
+  margin-top: 60px;
+
+}
+.socialline {
+  display: inline-block;
+  padding-left: 10px;
+}
+.social {
+  height: 30px;
+  width: 30px;
+}
+h1.oblique-name {
+  color: limegreen;
+  opacity: .33;
+}
+h1.oblique-name:hover {
+  opacity: .00;
+}
+h1.solid-name  {
+  z-index: -1;
 }
 .Wrap {
-  width: 960px;
+  position: fixed;
   margin: 0px auto;
+  top: 180px;
+  left: 10px;
+  right: 10px;
 }
 .Images {
   display: inline;
-  color: #CDC7C7;
   width: 300px;
-  margin: 10px;
+  margin: 20px;
   height: 300px;
+  left: 10px;
+  right: 10px;
 }
+.img {
+  margin: 0px 20px 0 20px;
+  -moz-box-shadow: 5px 5px 5px #ffffff;
+  -webkit-box-shadow: 5px 5px 5px #ffffff;
+  box-shadow: 10px 10px 0px rgba(50,205,50,.4);
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+  color: limegreen;
+  font-weight: bold;
+}
+/*ul.in-line  */
+a:hover {
+  color: darkgrey;
+  font-weight: bold;
+  text-decoration: none;
+}
+div.footer {
+  position: absolute;
+  bottom: 20px;
+  padding-bottom: 0;
+  width: 100%;
+  height: 100%;
+  height: 20px;
+  display: flex;
+  vertical-align: baseline;
+  justify-content: center
+}
+.emailnote {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  padding-top: 250px;
+}
+.backgroundimg {
+  padding: 0px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  opacity: .40;
+  width: 110%;
+  height: 100%;
+  z-index: -1;
+}
+.comments {
+    opacity: .4;
+    -moz-box-shadow: 5px 5px 10px rgba(50,205,50,.3);
+    -webkit-box-shadow: 5px 5px 10px rgba(50,205,50,.3);
+    box-shadow: 5px 5px 10px rgba(50,205,50,.3);
+}
+input#submit {
+  color: white;
+  border: .3px solid darkgrey;
+  background-color: limegreen;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 205, 50, 0.5)), to(rgb(50, 205, 50)));
+  background: -moz-webkit-gradient(top,rgba(50, 205, 50, 0.5), rgb(50, 205, 50));
+  background: -o-webkit-gradient(top,rgba(50, 205, 50, 0.5), rgb(50, 205, 50));
+  background: -ms-webkit-gradient(top,rgba(50, 205, 50, 0.5), rgb(50, 205, 50));
+  border-radius: 5px;
+}
+input#submit:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 205, 50, 0)), to(rgba(50, 205, 50, 0.5)));
+  background: -moz-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
+  background: -o-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
+  background: -ms-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
+}
+.button {
+  margin: 10px;
+}
+.aboutbody {
+  color: black;
+  position: absolute;
+  margin: 150px 150px 10px 150px;
+  display: inline-block;
+}
+.white {
+  background-color: lightgrey;
+  margin: 120px 0 20px -20px;
+  height: 77%;
+  width: 120%;
+  position: absolute;
+}
+.hide {
+  visibility: hidden;
+}
+.lists  {
+  margin: 10px 10px 10px 10px;
+  width: 1200px;
+}
+.inlinelist {
+  width: 232px;
+  float: left;
+  padding: 20px;
+  margin: 5px;
+}
+.meet {
+  float: left;
+  width: 1200px;
+}
+.riley {
+  height: 201px;
+  width: 180px;
+  margin: 5px;
+  float: left;
+  border-radius: 40px;
+  -moz-box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+  box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+}
+.prelist {
+  margin-top: 10px;
+  padding-top: 220px;
+  height: 40px;
+}
+.meetreid {
+  float: left;
+  padding-left: 20px;
+  width: 990px;
+}
+.listhead {
+  padding-left: 20px;
+  padding-bottom: -10PX;
+}
+.Sharkimg {
+  height: 190px;
+  width: 250px;
+  border-radius: 40px;
+  -moz-box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+  -webkit-box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+  box-shadow: 5px 5px 10px rgba(50,205,50,.5);
+}
+div.footerabout {
+  position: absolute;
+  background-color: black;
+  bottom: 5px;
+  padding-bottom: 0;
+  width: 100%;
+  height: 100%;
+  height: 20px;
+  display: flex;
+  vertical-align: baseline;
+  justify-content: center
