@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javacode.js" charset="utf-8"></script>
   </head>
   <header>
     <span class="header">
@@ -29,10 +30,11 @@
       <form enctype="text/plain" method="get"
         action="mailto:rt.trierweiler@gmail.com">
         <input name="subject" type="hidden" value="Name">
-        <textarea name="email" rows="8" cols="80"
+        <textarea id="spruceText" name="email" rows="8" cols="80"
         class="comments">Send Reid your critiques… go ahead…</textarea>
         <br>
         <div class="clear">
+          <button id="spruceItUp" onclick="originalValue()" type="button" name="button" class="button">Spruce it up!</button>
           <input id="submit" type="submit" value="Submit email" class="button">
         </div>
       </form>

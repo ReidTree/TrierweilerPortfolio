@@ -116,8 +116,9 @@ div.footer {
     -webkit-box-shadow: 5px 5px 10px rgba(50,205,50,.3);
     box-shadow: 5px 5px 10px rgba(50,205,50,.3);
 }
-input#submit {
+.button {
   color: white;
+  margin: 10px;
   border: .3px solid darkgrey;
   background-color: limegreen;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 205, 50, 0.5)), to(rgb(50, 205, 50)));
@@ -126,14 +127,11 @@ input#submit {
   background: -ms-webkit-gradient(top,rgba(50, 205, 50, 0.5), rgb(50, 205, 50));
   border-radius: 5px;
 }
-input#submit:hover {
+.button:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 205, 50, 0)), to(rgba(50, 205, 50, 0.5)));
   background: -moz-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
   background: -o-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
   background: -ms-webkit-gradient(top,rgba(50, 205, 50, 0), rgba(50, 205, 50, 0.5));
-}
-.button {
-  margin: 10px;
 }
 .aboutbody {
   color: black;
@@ -208,3 +206,7 @@ div.footerabout {
   display: flex;
   vertical-align: baseline;
   justify-content: center
+}
+textarea {
+  outline: none;
+}
