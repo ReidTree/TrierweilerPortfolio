@@ -15,4 +15,4 @@ Shortly after that, I was working with 100+ Excel Spreadsheets. I would open eac
 After a short time googling, I found a way to link the sheets using a concat function and the file path.
 I knew right then, that I want to do something like this for the rest of my life. I felt so accomplished, saved hours of worked with simple function and path.
 I started researching and realized that is eactly what a Developer does. 
-I started learning HTML, CSS and JavaScript. I found Grand Circus Bootcamps in Detroit, and thus this site was born.
+I started learning HTML, CSS and JavaScript. I found Grand Circus Bootcamps in Detroit, and thus this site was born. It is by no means a good site, but it has a deep meaning for me.
